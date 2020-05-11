@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Rubik&display=swap');
+
+header {
+  height: 100px;
+  margin-top: 50px;
+  }
+header h1{
+  font-family: Comfortaa, sans-serif;
+}
+header h1 a{
+  text-decoration: none;
+  color: #007a00
+}
+.body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background: url(images/clouds.jpg) center center no-repeat;;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+.wrapper {
+	margin: auto;
+}
+nav {
+  float: right;
+  font-family: Comfortaa, sans-serif;
+}
+nav a {
+  text-decoration: none;
+  margin-right: 40px;
+  border-right: 100px;
+  color: #007a00;
+}
+hr{
+  background-image: url("images/hr.gif");
+}
+p {
+  font-family: Rubik, sans-serif;
+}
+.left-body {
+width: 250px;
+}
