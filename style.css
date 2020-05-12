@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Rubik&display=swap');
+/*header*/
 
 header {
   height: 100px;
@@ -9,38 +10,74 @@ header h1{
 }
 header h1 a{
   text-decoration: none;
-  color: #007a00
+  color: #004900
 }
 .body {
-  height: 100%;
-  width: 100%;
-  padding: 0;
-  margin: 0;
-  background: url(CuesHQ/clouds.jpg) center center no-repeat;;
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
+  background: url(images/clouds2.jpg);
 }
 .wrapper {
 	margin: auto;
 }
 nav {
   float: right;
-  font-family: Comfortaa, sans-serif;
+  font-family: Rubik, sans-serif;
 }
 nav a {
   text-decoration: none;
   margin-right: 40px;
   border-right: 100px;
-  color: #007a00;
+  color: #004900;
 }
 hr{
-  background-image: url("images/hr.gif");
+  color: #004900;
 }
-p {
+.diamond {
+  width: 15px;
+  height: 15px;
+  border: none;
+  background: #004900;
+  color: #004900;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  transform: rotate(45deg);
+}
+/* text */
+
+p,
+ul,
+ol {
   font-family: Rubik, sans-serif;
+  color: #004900;
+  text-decoration: none;
 }
-.left-body {
-width: 250px;
+.side {
+  font-family: 
+}
+/* body */
+
+.left-about-me {
+  width: 250px;
+  margin-left: 50px;
+}
+.middle-me {
+  width: 1200px;
+  margin-top: 100px;
+  margin-left: 45px;
+  font-size: 35px;
+  background-color: white;
+  border-radius: 3.5%;
+}
+.left-about-me,
+.middle-me {
+  float:left;
+}
+.steven-img {
+  border-radius: 50%;
+  height: 115px;
+  margin: 0px 0px 0px 40px;
+}
+ul {
+  margin: auto;
+  width: 350px;
+  font-style: initial;
 }
