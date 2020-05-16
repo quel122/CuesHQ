@@ -13,10 +13,11 @@ header h1 a{
   color: #004900
 }
 .body {
-  background: url(clouds2.jpg);
+  background: url(images/clouds2.jpg);
 }
 .wrapper {
 	margin: auto;
+  width: 350px;
 }
 nav {
   float: right;
@@ -32,8 +33,8 @@ hr{
   color: #004900;
 }
 .diamond {
-  width: 15px;
-  height: 15px;
+  width: 10px;
+  height: 10px;
   border: none;
   background: #004900;
   color: #004900;
@@ -50,10 +51,26 @@ ol {
   color: #004900;
   text-decoration: none;
 }
+ol {
+  
+}
+.center {
+  font-family: Rubik, sans-serif;
+  color: #004900;
+  text-decoration: none;
+  text-align: center;
+}
 .side {
   font-family: 
 }
-/* body */
+ul {
+  margin: auto;
+  width: 350px;
+  font-style: initial;
+}
+ a:visited {color: #004900}
+
+/* body- index */
 
 .left-about-me {
   width: 250px;
@@ -76,8 +93,32 @@ ol {
   height: 115px;
   margin: 0px 0px 0px 40px;
 }
-ul {
-  margin: auto;
-  width: 350px;
-  font-style: initial;
+/* body- about */
+
+.about {
+  background-color: white;
+  border-radius: 3.5%;
+  width: 1500px;
+  margin-left: 200px;
+  font-size: 20px;
+}
+.screen-img {
+  height: 440px;
+  width: auto;
+  
+
+}
+/* footer */
+
+footer {
+  height: 80px;
+  font-size: 15px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+footer-margin {
+  height: 30px;
+  width: auto;
 }
