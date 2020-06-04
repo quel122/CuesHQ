@@ -1,36 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Rubik&display=swap');
-/*header*/
+/*background*/
 
-header {
-  height: 100px;
-  margin-top: 50px;
-  }
-header h1{
-  font-family: Comfortaa, sans-serif;
-}
-header h1 a{
-  text-decoration: none;
-  color: #004900
+html {
+  scroll-behavior: smooth;
 }
 .body {
   background: url(images/clouds2.jpg);
 }
 .wrapper {
-	margin: auto;
-  width: 350px;
+  width: 1790px;
+  margin: auto;
 }
+/*header*/
+
+header {
+  height: 70px;
+  margin-top: 40px;
+  }
 nav {
   float: right;
-  font-family: Rubik, sans-serif;
-}
-nav a {
-  text-decoration: none;
-  margin-right: 40px;
+  border-bottom: 30px;
   border-right: 100px;
-  color: #004900;
 }
-hr{
+/*hr style*/
+
+.classic{
   color: #004900;
+  margin: 30px;
 }
 .diamond {
   width: 10px;
@@ -44,15 +40,32 @@ hr{
 }
 /* text */
 
+header h1{
+  font-family: Comfortaa, sans-serif;
+}
+header h1 a{
+  text-decoration: none;
+  color: #004900
+}
+nav a {
+  text-decoration: none;
+  font-family: Rubik, sans-serif;
+  color: #004900;
+  margin-right: 40px;
+}
 p,
 ul,
-ol {
+ol,
+a,
+li {
   font-family: Rubik, sans-serif;
   color: #004900;
   text-decoration: none;
+  font-size: 16;
+  font-weight: bold;
 }
-ol {
-  
+a {
+  color: #019601;
 }
 .center {
   font-family: Rubik, sans-serif;
@@ -60,26 +73,20 @@ ol {
   text-decoration: none;
   text-align: center;
 }
-.side {
-  font-family: 
-}
 ul {
-  margin: auto;
-  width: 350px;
   font-style: initial;
+  list-style-type: none;
 }
- a:visited {color: #004900}
-
+a:visited {color: #019601}
+a:hover {color: #004900}
 /* body- index */
 
 .left-about-me {
   width: 250px;
-  margin-left: 50px;
 }
 .middle-me {
   width: 1200px;
-  margin-top: 100px;
-  margin-left: 45px;
+  margin: 100px 45px 0px 45px;
   font-size: 35px;
   background-color: white;
   border-radius: 3.5%;
@@ -99,26 +106,30 @@ ul {
   background-color: white;
   border-radius: 3.5%;
   width: 1500px;
-  margin-left: 200px;
+  margin: 0px 145px;
   font-size: 20px;
+  padding: 20px;
 }
-.screen-img {
+.abt-img {
   height: 440px;
   width: auto;
-  
-
 }
 /* footer */
 
-footer {
-  height: 80px;
+.footer-main {
   font-size: 15px;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
+  margin-left: 300px;
 }
-footer-margin {
+.footer-clear {
+  clear:left;
+}
+.contact {
+  font-size: 16px;
+  margin-left: 260px;
+}
+.contact,
+.footer-main {
   height: 30px;
-  width: auto;
+  font-weight:bold;
+  float: left;
 }
