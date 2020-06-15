@@ -8,32 +8,31 @@ html {
   background: url(clouds2.jpg);
 }
 .wrapper {
-  width: 1790px;
+  width: 800px;
   margin: auto;
 }
 /*header*/
 
 header {
-  height: 70px;
-  margin-top: 40px;
+  height: 90px;
+  background: white;
+  width: 100%;
+  padding: 15px;
   }
 nav {
   float: right;
-  border-bottom: 30px;
-  border-right: 100px;
 }
 /*hr style*/
 
 .classic{
-  color: #004900;
-  margin: 30px;
+  background: #004900;
+  width: 100%
 }
 .diamond {
   width: 10px;
   height: 10px;
   border: none;
   background: #004900;
-  color: #004900;
   margin-top: 30px;
   margin-bottom: 20px;
   transform: rotate(45deg);
@@ -42,6 +41,7 @@ nav {
 
 header h1{
   font-family: Comfortaa, sans-serif;
+  margin-left: 40px;
 }
 header h1 a{
   text-decoration: none;
@@ -56,7 +56,6 @@ nav a {
 p,
 ul,
 ol,
-a,
 li {
   font-family: Rubik, sans-serif;
   color: #004900;
@@ -65,6 +64,8 @@ li {
 }
 a {
   color: #019601;
+  text-decoration: none;
+  font-weight: bold;
 }
 .center {
   font-family: Rubik, sans-serif;
@@ -81,18 +82,13 @@ a:hover {color: #004900}
 /* body- index */
 
 .left-about-me {
-  width: 250px;
+  width: 100%;
 }
 .middle-me {
-  width: 1200px;
-  margin: 100px 45px 0px 45px;
-  font-size: 35px;
+  width: 100%;
+  font-size: 20px;
   background-color: white;
-  border-radius: 3.5%;
-}
-.left-about-me,
-.middle-me {
-  float:left;
+  padding: 25px;
 }
 .steven-img {
   border-radius: 50%;
@@ -112,12 +108,22 @@ a:hover {color: #004900}
 .abt-img {
   height: 440px;
   width: auto;
+  
+
 }
 /* footer */
 
+footer {
+  height: 150px;
+  background: white;
+  width: 100%;
+
+}
 .footer-main {
   font-size: 15px;
   margin-left: 300px;
+  background: white;
+
 }
 .footer-clear {
   clear:left;
@@ -128,7 +134,6 @@ a:hover {color: #004900}
 }
 .contact,
 .footer-main {
-  height: 30px;
   font-weight:bold;
   float: left;
 }
