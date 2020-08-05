@@ -16,7 +16,6 @@ html {
 header {
   height: 90px;
   background: white;
-  width: 100%;
   padding: 15px;
   }
 nav {
@@ -56,7 +55,10 @@ nav a {
 p,
 ul,
 ol,
-li {
+li,
+h2,
+form,
+button {
   font-family: Rubik, sans-serif;
   color: #004900;
   text-decoration: none;
@@ -82,10 +84,8 @@ a:hover {color: #004900}
 /* body- index */
 
 .left-about-me {
-  width: 100%;
 }
 .middle-me {
-  width: 100%;
   font-size: 20px;
   background-color: white;
   padding: 25px;
@@ -111,6 +111,18 @@ a:hover {color: #004900}
   
 
 }
+/* contact form */
+
+form input, 
+form textarea {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+form textarea {
+  height: 160px;
+}
+
 /* footer */
 
 footer {
