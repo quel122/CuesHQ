@@ -1,36 +1,69 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>CuesHQ</title>
-    <link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css">
-    <link href="style.css" rel="stylesheet" type="text/css" />
-  </head>
-  <body class="body">
-    <header>
-        <div class="wrapper">
-            <h1><a href="index.html"><b>Cue'sHeadQuarters</b></a></h1>
-            <nav>
-              <a href="index.html">Home</a> 
-              <a href="about.html">About</a>
-              <a href="contact.html">Contact Us</a>
-            </nav>
-        </div>
-    </header>
-    <hr>
-    <main>
-      <ul align="center">If you need me, this is where you can find me...
-        <li>E-Mail: marquelgreene1@gmail.com</li>
-        <li>Phone Number: (470) 427-5974 </li>
-        <li>GitHub: <a href="https://github.com/quel122">Quel122</a></li>
-        <li>DeviantArt: <a href="https://www.deviantart.com/quel122">Quel122</a></li>
-        <li>LinkedIn: <a href="https://www.linkedin.com/in/marquel-greene-3b11111aa/">Marquel Greene</a></li>
-      </ul>
-    <script src="script.js"></script>
-    </main>
-    <footer>
-      <p class="center">&copy;2020 Cue'sHeadQuarters</p>
-    </footer>
-  </body>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>CuesHQ</title>
+	<link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css">
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body class="body">
+	<header>
+		<div>
+			<h1><a href="index.html">Cue'sHeadQuarters</a></h1>
+			<nav>
+				<!--Nav Buttons-->
+				<ul id="menu">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<hr class="classic">
+	<main class="middle-me">
+		<section>
+			<h2> Contact Form </h2>
+			<div class="group">
+				<div class="item-double">
+					<form action="https://formspree.io/mbjzwqlo"
+ method="post">
+						<label for="user-name">Name:</label>
+          <input id="user-name" type="text" name="name">
+
+          <label for="user-email">Email:</label>
+          <input id="user-email" type="text" name="email">
+
+          <label for="user-message">Message:</label>
+          <textarea id="user-message" name="message"></textarea>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+      </section>
+		<script src="script.js">
+		</script>
+	</main>
+	<footer>
+		<div class="footer-clear">
+			<hr class="classic" id="foot">
+		</div>
+		<div class="footer-main">
+			<p>&copy;2020 Cue'sHeadQuarters</p>
+		</div>
+		<div class="contact">
+			<!--K.I.T.-->
+			<ul>
+				<li>E-Mail: <a href="mailto:marquelgreene1@gmail.com">MarquelGreene1</a></li>
+				<li>Phone Number: <a href="tel:4704275974">(470) 427-5974</a></li>
+				<li>GitHub: <a href="https://github.com/quel122">Quel122</a></li>
+				<li>DeviantArt: <a href="https://www.deviantart.com/quel122">Quel122</a></li>
+				<li>LinkedIn: <a href="https://www.linkedin.com/in/marquel-greene-3b11111aa/">Marquel Greene</a></li>
+			</ul>
+		</div>
+	</footer>
+</body>
+
 </html>
