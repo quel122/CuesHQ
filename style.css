@@ -4,22 +4,36 @@
 html {
   scroll-behavior: smooth;
 }
-.body {
-  background: url(clouds2.jpg);
-}
-.wrapper {
-  width: 800px;
-  margin: auto;
+body {
+  background: url(images/clouds2.jpg);
 }
 /*header*/
 
 header {
-  height: 90px;
-  background: white;
+  background-color: white;
   padding: 15px;
-  }
-nav {
-  float: right;
+}
+header h1{
+  font-family: Comfortaa, sans-serif;
+  margin: 0;
+  text-align: center;
+}
+header nav{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+header nav ul{
+  display: flex;
+  font-family: Rubik, sans-serif;
+  color: #004900;
+}
+header nav ul li a{
+  text-decoration: none;
+  margin-right: 20px;
+}
+header nav ul li:last-child a{
+  margin-left: 0;
 }
 /*hr style*/
 
@@ -38,27 +52,15 @@ nav {
 }
 /* text */
 
-header h1{
-  font-family: Comfortaa, sans-serif;
-  margin-left: 40px;
-}
-header h1 a{
-  text-decoration: none;
-  color: #004900
-}
-nav a {
-  text-decoration: none;
-  font-family: Rubik, sans-serif;
-  color: #004900;
-  margin-right: 40px;
-}
 p,
 ul,
 ol,
 li,
 h2,
 form,
-button {
+button,
+h4,
+h5 {
   font-family: Rubik, sans-serif;
   color: #004900;
   text-decoration: none;
@@ -70,9 +72,6 @@ a {
   font-weight: bold;
 }
 .center {
-  font-family: Rubik, sans-serif;
-  color: #004900;
-  text-decoration: none;
   text-align: center;
 }
 ul {
@@ -83,33 +82,21 @@ a:visited {color: #019601}
 a:hover {color: #004900}
 /* body- index */
 
-.left-about-me {
-}
 .middle-me {
   font-size: 20px;
   background-color: white;
   padding: 25px;
 }
+/* img style */
+
 .steven-img {
   border-radius: 50%;
   height: 115px;
   margin: 0px 0px 0px 40px;
 }
-/* body- about */
-
-.about {
-  background-color: white;
-  border-radius: 3.5%;
-  width: 1500px;
-  margin: 0px 145px;
-  font-size: 20px;
-  padding: 20px;
-}
 .abt-img {
   height: 440px;
   width: auto;
-  
-
 }
 /* contact form */
 
@@ -125,27 +112,39 @@ form textarea {
 
 /* footer */
 
-footer {
-  height: 150px;
-  background: white;
-  width: 100%;
-
-}
-.footer-main {
+footer{
+  background-color: #FFF;
+  text-align: center;
+  padding: 15px;
   font-size: 15px;
-  margin-left: 300px;
-  background: white;
-
 }
-.footer-clear {
-  clear:left;
-}
-.contact {
+footer ul{
+  margin-right: 35px;
   font-size: 16px;
+}
+ @media all and (min-width: 600px){
+  header{
+    display: flex;
+    justify-content:space between;
+    padding: 20px;
+  }
+  header h1{
+    padding-top: 8px;
+  }
+  header nav ul{
+    float: right;
+  }
+  .wrapper {
+  width: 800px;
+  margin: auto;
+  }
+  footer{
+    display: flex;
+  }
+  footer p{
+    margin-left: 300px;
+  }
+  footer ul{
   margin-left: 260px;
-}
-.contact,
-.footer-main {
-  font-weight:bold;
-  float: left;
-}
+  }
+ }
