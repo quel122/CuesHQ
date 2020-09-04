@@ -48,20 +48,78 @@ main {
   flex-direction: column;
   align-items: center;
 }
+
+/* index page style */
+
+.middle-me {
+  font-size: 15px;
+  background-color: white;
+  padding: 25px;
+}
+.steven-img {
+  border-radius: 50%;
+  height: 115px;
+  padding-bottom: 20px;
+  
+}
 /*about page style*/
 
-.group{
+.abt-group{
   display:flex;
   flex-direction: column;
   padding: 100px;
+  align-items: center;
+
 }
-.group p{
+.abt-group p{
   font-size: 11px;
 }
+.abtimg {
+  max-width:100%;
+  height:100%;
+  padding-bottom: 50px;
+}
+.abt-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+  /* width: 100%; */
+}
+/* .abt-item img {
+  width: 100% */
+
+/* contact page style */
+
+form input, 
+form textarea {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+form textarea {
+  height: 160px;
+}
+/* footer */
+
+footer{
+  background-color: #FFF;
+  text-align: center;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+}
+footer ul{
+  font-size: 13px;
+  margin-right: 38px;
+}
+footer p{
+  font-size: 11px;
+} 
 /*hr style*/
 
 .classic{
-  background: #004900;
   border: none;
 }
 .diamond {
@@ -103,61 +161,8 @@ ul {
 }
 a:visited {color: #019601}
 a:hover {color: #004900}
-/* body- index */
 
-.middle-me {
-  font-size: 15px;
-  background-color: white;
-  padding: 25px;
-}
-/* img style */
-
-.steven-img {
-  border-radius: 50%;
-  height: 115px;
-  padding-bottom: 20px;
-  
-}
-.item {
-  width: 100%;
-}
-.item img {
-  width: 100%
-}
-/* .abt-img {
-  max-width:100%;
-  height:100%;
-  padding-bottom: 50px;
-} */
-/* contact form */
-
-form input, 
-form textarea {
-  width: 100%;
-  margin-bottom: 20px;
-}
-
-form textarea {
-  height: 160px;
-}
-
-/* footer */
-
-footer{
-  background-color: #FFF;
-  text-align: center;
-  padding: 15px;
-  display: flex;
-  flex-direction: column;
-}
-footer ul{
-  font-size: 13px;
-  margin-right: 38px;
-}
-footer p{
-  font-size: 11px;
-}
- @media all and (min-width: 600px){
+@media all and (min-width: 800px){
   header{
     display: flex;
     justify-content: space-between;
@@ -189,10 +194,14 @@ footer p{
   header nav ul li:last-child a{
     margin-left: 0;
 }
-  .group{
-    flex-direction: row;
-    padding: 50px;
-    justify-content: space-around;
+  .abt-img{
+    height: 500px;
+    width: 800px;
+  }
+  .abt-item p{
+    width: 500px;
+    text-align: center;
+    padding: 30px;
   }
   .middle-me{
     font-size: 20px;
